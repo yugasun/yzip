@@ -2,9 +2,9 @@
   "name": "yzip",
   "version": "0.0.1",
   "description": "Zip command depends on adm-zip",
-  "main": "bin/azip.js",
+  "main": "bin/yzip.js",
   "bin": {
-    "yzip": "./bin/azip.js"
+    "yzip": "./bin/yzip.js"
   },
   "scripts": {
     "test": "npm run lint && npm run prettier",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yugasun/azip.git"
+    "url": "git+https://github.com/yugasun/yzip.git"
   },
   "keywords": [
     "zip",
@@ -49,9 +49,9 @@
   "author": "yugasun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yugasun/azip/issues"
+    "url": "https://github.com/yugasun/yzip/issues"
   },
-  "homepage": "https://github.com/yugasun/azip#readme",
+  "homepage": "https://github.com/yugasun/yzip#readme",
   "dependencies": {
     "adm-zip": "^0.4.14",
     "commander": "^5.1.0"
