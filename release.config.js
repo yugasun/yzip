@@ -37,7 +37,7 @@ module.exports = {
       '@semantic-release/npm',
       {
         pkgRoot: '.',
-        npmPublish: true,
+        npmPublish: false,
         tarballDir: false,
       },
     ],

@@ -1,10 +1,10 @@
 {
-  "name": "azip",
+  "name": "yzip",
   "version": "0.0.0",
   "description": "Zip command depends on adm-zip",
   "main": "bin/azip.js",
   "bin": {
-    "azip": "./bin/azip.js"
+    "yzip": "./bin/azip.js"
   },
   "scripts": {
     "test": "npm run lint && npm run prettier",

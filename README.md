@@ -1,8 +1,8 @@
-# azip
+# yzip
 
-[![Build Status](https://travis-ci.com/yugasun/azip.svg?branch=master)](https://travis-ci.com/yugasun/azip)
-[![npm](https://img.shields.io/npm/v/azip.svg)](http://www.npmtrends.com/azip)
-[![NPM downloads](https://img.shields.io/npm/dm/azip.svg)](http://www.npmtrends.com/azip)
+[![Build Status](https://travis-ci.com/yugasun/yzip.svg?branch=master)](https://travis-ci.com/yugasun/yzip)
+[![npm](https://img.shields.io/npm/v/yzip.svg)](http://www.npmtrends.com/yzip)
+[![NPM downloads](https://img.shields.io/npm/dm/yzip.svg)](http://www.npmtrends.com/yzip)
 
 Zip command depend on adm-zip.
 
@@ -11,7 +11,7 @@ Zip command depend on adm-zip.
 Zip directory into zip file:
 
 ```bash
-$ azip -i ./src -o archive.zip
+$ yzip -i ./src -o archive.zip
 ```
 
 ## TODO
