@@ -1,6 +1,6 @@
 {
   "name": "yzip",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Zip command depends on adm-zip",
   "main": "bin/yzip.js",
   "bin": {
