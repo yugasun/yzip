@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 const { program } = require('commander');
-const { zip } = require('../src');
+const { zip, unzip } = require('../src');
 
 async function run() {
   program
     .option('-x, --extract', 'Whether to extract zip')
-    .option('-i, --input <input>', 'Folder need to be comporessed')
-    .option('-o, --output <output>', 'Output filename');
+    .option('-i, --input <input>', 'Folder need to be comporessed or zip file to be extracted')
+    .option('-o, --output <output>', 'Output filename or path');
 
   program.parse(process.argv);
 
@@ -23,6 +23,7 @@ async function run() {
   const { extract = false, input, output } = program;
 
   if (extract) {
+    unzip(input, output);
   } else {
     zip(input, output);
   }
