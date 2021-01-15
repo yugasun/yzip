@@ -1,6 +1,6 @@
 # yzip
 
-[![Build Status](https://travis-ci.com/yugasun/yzip.svg?branch=master)](https://travis-ci.com/yugasun/yzip)
+[![Build Status](https://github.com/yugasun/yzip/workflows/Test/badge.svg)](https://github.com/yugasun/yzip/actions?query=workflow:Test)
 [![npm](https://img.shields.io/npm/v/yzip.svg)](http://www.npmtrends.com/yzip)
 [![NPM downloads](https://img.shields.io/npm/dm/yzip.svg)](http://www.npmtrends.com/yzip)
 
@@ -14,10 +14,16 @@ Zip directory into zip file:
 $ yzip -i ./src -o archive.zip
 ```
 
+Unzip file:
+
+```bash
+$ yzip -x -i ./archive.zip -o ./output
+```
+
 ## TODO
 
 - [x] zip
-- [ ] unzip
+- [x] unzip
 
 ## License
 
