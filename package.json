@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "jest",
+    "pkg": "node ./scripts/build.js",
     "commitlint": "commitlint -f HEAD@{15}",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "eslint --fix --ext .js,.ts,.tsx .",
@@ -51,8 +52,9 @@
   },
   "homepage": "https://github.com/yugasun/yzip#readme",
   "dependencies": {
-    "adm-zip": "^0.4.14",
-    "commander": "^5.1.0"
+    "adm-zip": "^0.5.1",
+    "commander": "^5.1.0",
+    "ora": "^5.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -71,6 +73,7 @@
     "husky": "^4.2.3",
     "jest": "^26.6.3",
     "lint-staged": "^10.0.8",
+    "pkg": "^4.4.9",
     "prettier": "^1.19.1",
     "semantic-release": "^17.0.4"
   }
