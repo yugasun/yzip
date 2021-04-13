@@ -1,1 +1,1 @@
-0o644 file
+0o755 file

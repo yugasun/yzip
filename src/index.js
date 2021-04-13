@@ -119,7 +119,7 @@ async function zipCommand(input = process.cwd(), output = 'output.zip') {
  * @param {string} input input zip filename
  * @param {string} output output dir
  */
-async function unzipCommand(input, output = process.cwd()) {
+async function unzipCommand(input, output = process.cwd(), overwrite = true) {
   const spinner = ora().start('Start unzipping...\n');
 
   try {
@@ -133,7 +133,7 @@ async function unzipCommand(input, output = process.cwd()) {
     const outputPath = resolve(output);
 
     mkdir(outputPath);
-    zip.extractAllTo(outputPath);
+    zip.extractAllTo(outputPath, overwrite);
     spinner.succeed(`Unzip success to ${outputPath}`);
   } catch (e) {
     spinner.fail(`[Unzip Error]: ${e.message}`);
